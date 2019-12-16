@@ -11,7 +11,7 @@ import Upload from './components/Upload'
 import List from './components/List'
 import Video from './components/Video';
 
-export const baseurl = 'http://localhost:5000/'
+export const baseurl = '/'
 
 function App() {
   return (

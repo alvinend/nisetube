@@ -58,7 +58,7 @@ const List = () => {
       {isProcessing ? (<img src={Loading} alt="Loading" />):
       (<ul>
         {lists.map(list => 
-        <li>
+        <li key={list.fileID}>
           <Link to={`/video/${list.fileID}`}>
             {list.originalname}
             <span>{list.ext}</span>
