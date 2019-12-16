@@ -16,7 +16,7 @@ const Video = (props) => {
   return (
     <StyledDiv>
       <video id="videoPlayer" controls>
-        <source src={`http://localhost:5000/video/${props.match.params.videoID}`} type="video/mp4" />
+        <source src={`${baseurl}video/${props.match.params.videoID}`} type="video/mp4" />
       </video>
     </StyledDiv>
   )
