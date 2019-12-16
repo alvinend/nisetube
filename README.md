@@ -13,7 +13,7 @@ FFMPEG, node.js と yarn インストール済のサーバ
 5. `yarn run start`を実行する
 
 ### ノート
-フロントの方3000ポートで動いている（Nginxの調整必要かも）
+フロントの方3000ポートとバックの方が5000で動いている（サーバの設定の調整が必要かも）
 
 ## English
 ### Prerequisite
@@ -27,4 +27,4 @@ A server with FFMPEG, node.js and yarn installed
 5. run `yarn run start`
 
 ### Note
-Front will be in port 3000 (You might need to change your server setting)
+Front will be in port 3000 and Back will be in port 5000(You might need to change your server setting)
